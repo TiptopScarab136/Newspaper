@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+p{
+    margin: 0;
+    width: 100;
+}
+
+#titlebar {
+    width: 100vw;
+    background-color: #212529;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    box-shadow: 1px 4px 5px black;
+}
+
+#navb {
+    padding: 1.5vw;
+    font-family: Judson;
+    font-weight: 400;
+}
+
+#navb:hover {
+    transition: 0.5s;
+    background-color: #DB2955;
+    text-decoration: underline;
+}
+
+#sm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#justtitle {
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+    background-color: #212529;
+    height: auto;
+    align-items: center;
+    padding: 1vw;
+    padding-bottom: 0.01vw;
+}
